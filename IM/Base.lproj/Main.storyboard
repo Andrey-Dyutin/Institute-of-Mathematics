@@ -199,7 +199,7 @@
             </objects>
             <point key="canvasLocation" x="3438" y="394"/>
         </scene>
-        <!--Time Table Table View Controller-->
+        <!--Расписание занятий-->
         <scene sceneID="xuf-hI-fkd">
             <objects>
                 <tableViewController id="PNn-wL-fK0" customClass="TimeTableTableViewController" customModule="IM" customModuleProvider="target" sceneMemberID="viewController">
@@ -222,7 +222,7 @@
                             <outlet property="delegate" destination="PNn-wL-fK0" id="9eR-sx-DdW"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Svg-3Q-Eva"/>
+                    <navigationItem key="navigationItem" title="Расписание занятий" id="Svg-3Q-Eva"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xZO-On-OU1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -284,6 +284,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eWi-qm-tOm">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
